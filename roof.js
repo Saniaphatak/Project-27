@@ -1,3 +1,4 @@
+//define class roof
 class roof
 {
 	constructor(x,y,w,h)
@@ -21,7 +22,7 @@ class roof
 			push()
 			translate(groundPos.x, groundPos.y);
 			rectMode(CENTER)
-			//strokeWeight(4);
+			strokeWeight(4);
 			fill(128,128,128)
 			rect(0,0,this.w, this.h);
 			pop()
